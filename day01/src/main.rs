@@ -1,7 +1,7 @@
 use std::fs;
 
 fn main() {
-    let data: String = fs::read_to_string("input.txt").expect("Unable to read file");
+    let data: String = fs::read_to_string("day01/input.txt").expect("Unable to read file");
     let mut max_sum: i32 = 0;
     let mut sec_sum: i32 = 0;
     let mut thi_sum: i32 = 0;
